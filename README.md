@@ -1,43 +1,43 @@
 ### OpenPBS Open Source Project
 
-If you are new to this project, please start at https://www.openpbs.org/
+Se você for novo no projeto, comece em https://www.openpbs.org/
 
-Note: In May 2020, OpenPBS became the new name for the PBS Professional Open Source Project. (PBS Professional will be used to refer to the commercial version; OpenPBS to the Open Source version -- same code, easier naming.)  As there are many parts to the project, it will take several weeks to change the name in all places, so you will continue to see references to PBS Pro -- stay tuned.
+Observação: em maio de 2020, o OpenPBS tornou-se o novo nome do projeto de código aberto PBS Professional. (PBS Professional será usado para se referir à versão comercial; OpenPBS para a versão de código aberto - mesmo código, nomenclatura mais fácil).  Como há muitas partes do projeto, levará várias semanas para alterar o nome em todos os lugares, portanto, você continuará a ver referências ao PBS Pro - fique atento.
 
 ### What is OpenPBS?
-OpenPBS® software optimizes job scheduling and workload management in high-performance computing (HPC) environments – clusters, clouds, and supercomputers – improving system efficiency and people’s productivity.  Built by HPC people for HPC people, OpenPBS is fast, scalable, secure, and resilient, and supports all modern infrastructure, middleware, and applications.
+OpenPBS® software otimiza o agendamento de tarefas e o gerenciamento de cargas de trabalho em ambientes de computação de alto desempenho (HPC) - clusters, nuvens e supercomputadores - melhorando a eficiência do sistema e a produtividade das pessoas.  Criado por pessoas de HPC para pessoas de HPC, o OpenPBS é rápido, dimensionável, seguro e resiliente, e oferece suporte a todas as infraestruturas, middlewares e aplicativos modernos.
 
-* **Scalability:** supports millions of cores with fast job dispatch and minimal latency; tested beyond 50,000 nodes
-* **Policy-Driven Scheduling:** meets unique site goals and SLAs by balancing job turnaround time and utilization with optimal job placement
-* **Resiliency:** includes automatic fail-over architecture with no single point of failure – jobs are never lost, and jobs continue to run despite failures
-* **Flexible Plugin Framework:** simplifies administration with enhanced visibility and extensibility; customize implementations to meet complex requirements
-* **Health Checks:** monitors and automatically mitigates faults with a comprehensive health check framework
-* **Voted #1 HPC Software** by HPC Wire readers and proven for over 20 years at thousands of sites around the globe in both the private sector and public sector
+* **Escalabilidade:** suporta milhões de núcleos com envio rápido de tarefas e latência mínima; testado em mais de 50.000 nós
+* **Agendamento orientado por políticas:** atende às metas e aos SLAs exclusivos do site, equilibrando o tempo de resposta e a utilização do trabalho com o posicionamento ideal do trabalho
+* **Resiliência:** inclui uma arquitetura de failover automático sem ponto único de falha - os trabalhos nunca são perdidos e continuam a ser executados apesar das falhas
+* **Estrutura de plug-ins flexível:** simplifica a administração com visibilidade e extensibilidade aprimoradas; personalize as implementações para atender a requisitos complexos
+* **Health Checks:** monitora e reduz automaticamente as falhas com uma estrutura abrangente de verificação de integridade
+* **Votado como o melhor software de HPC** pelos leitores da HPC Wire e comprovado por mais de 20 anos em milhares de locais em todo o mundo, tanto no setor privado quanto no setor público
 
-### Community and Ways to Participate
+### Comunidade e formas de participar
 
-OpenPBS is a community effort and there are a variety of ways to engage, from helping answer questions to benchmarking to developing new capabilities and tests.  We value being aggressively open and inclusive, but also aggressively respectful and professional.  See our [Code of Conduct](https://openpbs.atlassian.net/wiki/display/PBSPro/Code+of+Conduct).
+O OpenPBS é um esforço da comunidade e há várias maneiras de se envolver, desde ajudar a responder perguntas até a avaliação comparativa e o desenvolvimento de novos recursos e testes.  Valorizamos o fato de sermos agressivamente abertos e inclusivos, mas também agressivamente respeitosos e profissionais.  Veja nosso [Code of Conduct](https://openpbs.atlassian.net/wiki/display/PBSPro/Code+of+Conduct).
 
-The best place to start is by joining the community forum.  You may sign up or view the archives via:
+O melhor lugar para começar é participando do fórum da comunidade.  Você pode se inscrever ou visualizar os arquivos em:
 
-* [Announcements](http://community.openpbs.org/c/announcements) -- important updates relevant to the entire PBS Pro community
-* [Users/Site Admins](http://community.openpbs.org/c/users-site-administrators) -- general questions and discussions among end users (system admins, engineers, scientists)
-* [Developers](http://community.openpbs.org/c/developers) -- technical discussions among developers
+* [Anúncios](http://community.openpbs.org/c/announcements) -- atualizações importantes e relevantes para toda a comunidade do PBS Pro
+* [Usuários/Admibnistradores de Site](http://community.openpbs.org/c/users-site-administrators) -- perguntas e discussões gerais entre usuários finais (administradores de sistemas, engenheiros, cientistas)
+* [Desenvolvedores](http://community.openpbs.org/c/developers) -- discussões técnicas entre desenvolvedores
 
-To dive in deeper and learn more about the project and what the community is up to, visit:
+Para se aprofundar e saber mais sobre o projeto e o que a comunidade está fazendo, visite:
 
-* [Contributor’s portal](https://openpbs.atlassian.net/wiki) -- includes roadmaps, processes, how to articles, coding standards, release notes, etc  (Uses Confluence)
-* [Source code](https://github.com/OpenPBS/openpbs) -- includes full source code and test framework (Uses Github)
-* [Issue tracking system](https://github.com/OpenPBS/openpbs/issues) -- includes bugs and feature requests and status (Uses Github).  Previously, we used [JIRA](https://pbspro.atlassian.net), which contains older issues.
+* [Contribuidores do portal](https://openpbs.atlassian.net/wiki) -- inclui roteiros, processos, artigos sobre como fazer, padrões de codificação, notas de versão, etc. (usa o Confluence)
+* [Código Fonte](https://github.com/OpenPBS/openpbs) -- inclui código-fonte completo e estrutura de teste (usa o Github)
+* [Sistema de controle de Issue](https://github.com/OpenPBS/openpbs/issues) -- inclui bugs, solicitações de recursos e status (Usa o Github).  Anteriormente, usávamos [JIRA](https://pbspro.atlassian.net), que contém edições mais antigas.
 
-OpenPBS is also integrated in the OpenHPC software stack. The mission of OpenHPC is to provide an integrated collection of HPC-centric components to provide full-featured HPC software stacks. OpenHPC is a Linux Foundation Collaborative Project.  Learn more at:
+O OpenPBS também está integrado à pilha de software OpenHPC. A missão do OpenHPC é oferecer uma coleção integrada de componentes centrados em HPC para fornecer pilhas de software de HPC com recursos completos. O OpenHPC é um projeto colaborativo da Linux Foundation.  Saiba mais em:
 
-* [OpenHPC.community](http://openhpc.community)
+* [OpenHPC.communidade](http://openhpc.community)
 * [The Linux Foundation](http://thelinuxfoundation.org)
 
-### Our Vision:  One Scheduler for the whole HPC World
+### Nossa visão:  Um Agendador para todo o mundo HPC
 
-There is a huge opportunity to advance the state of the art in HPC scheduling by bringing the whole HPC world together, marrying public sector innovations with private sector enterprise know-how, and retargeting the effort wasted re-implementing the same old capabilities again and again towards pushing the outside of the envelope.  At the heart of this vision is fostering common standards (at least defacto standards like common software).  To this end, Altair has made a big investment by releasing the PBS Professional technology as OpenPBS (under an Open Source license to meet the needs of the public sector), while also continuing to offer PBS Professional (under a commercial license to meet the needs of the private sector).  One defacto standard that can work for the whole HPC community.
+Há uma grande oportunidade de avançar o estado da arte em agendamento de HPC reunindo todo o mundo da HPC, combinando inovações do setor público com o know-how de empresas do setor privado e redirecionando o esforço desperdiçado com a reimplementação dos mesmos recursos antigos para a superação dos limites.  No centro dessa visão está a promoção de padrões comuns (pelo menos padrões de fato, como software comum).  Para isso, a Altair fez um grande investimento ao liberar a tecnologia do PBS Professional como OpenPBS (sob uma licença de código aberto para atender às necessidades do setor público), ao mesmo tempo em que continua a oferecer o PBS Professional (sob uma licença comercial para atender às necessidades do setor privado).  Um padrão de fato que pode funcionar para toda a comunidade HPC.
 
-### Current Build status
+### Status atual da construção
 [![Build Status](https://travis-ci.com/OpenPBS/openpbs.svg?branch=master)](https://travis-ci.com/OpenPBS/openpbs)
