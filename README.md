@@ -21,7 +21,7 @@ O OpenPBS é um esforço da comunidade e há várias maneiras de se envolver, de
 O melhor lugar para começar é participando do fórum da comunidade.  Você pode se inscrever ou visualizar os arquivos em:
 
 * [Anúncios](http://community.openpbs.org/c/announcements) -- atualizações importantes e relevantes para toda a comunidade do PBS Pro
-* [Usuários/Admibnistradores de Site](http://community.openpbs.org/c/users-site-administrators) -- perguntas e discussões gerais entre usuários finais (administradores de sistemas, engenheiros, cientistas)
+* [Usuários/Administradores de Site](http://community.openpbs.org/c/users-site-administrators) -- perguntas e discussões gerais entre usuários finais (administradores de sistemas, engenheiros, cientistas)
 * [Desenvolvedores](http://community.openpbs.org/c/developers) -- discussões técnicas entre desenvolvedores
 
 Para se aprofundar e saber mais sobre o projeto e o que a comunidade está fazendo, visite:
